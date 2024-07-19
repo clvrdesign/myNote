@@ -9,7 +9,7 @@ function Home() {
         <h1 className="text-2xl text-slate-700 font-bold py-10">
           All Notes
         </h1>
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-5">
+        <div className="grid grid-cols-1  lg:grid-cols-4  md:grid-cols-2 gap-5">
           <Note/>
           <Note/>
           <Note/>
