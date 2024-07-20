@@ -2,10 +2,10 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <div className="fixed w-full h-12 text-slate-700 bg-slate-100 py-10">
-      <div className="container flex justify-between items-center h-full px-4 mx-auto max-w-screen-xl">
+    <div className="fixed top-0 w-full h-12 text-slate-700 bg-slate-100 py-10">
+      <div className="container flex justify-between items-center h-full px-4 mx-auto max-w-screen-2xl">
         <h2 className="text-3xl font-bold">
-          <Link to="/">Note App</Link>
+          <Link to="/">iNote</Link>
         </h2>
         <nav>
           <ul className="flex items-center gap-10">
@@ -20,7 +20,9 @@ function Navbar() {
                 <label className='cursor-pointer lg:inline-block hidden'>Create a note</label>
               </Link>
             </li>
+            
           </ul>
+          
         </nav>
       </div>
     </div>

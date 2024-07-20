@@ -1,11 +1,14 @@
 
 
 function Footer() {
+
+  const copyright = new Date().getFullYear()
+
   return (
-    <footer className="w-full py-5">
-      <div className="container mx-auto max-w-screen border-t border-t-slate-50 pt-5">
+    <footer className="container mx-auto max-w-screen py-5">
+      <div className="border-t border-t-slate-50 pt-5">
         <ul className="flex justify-between text-slate-500"> 
-          <li>&copy; 2025 NoteApp | All Rights Reserved</li>
+          <li>&copy; {copyright} NoteApp | All Rights Reserved</li>
           <li>Terms & Conditions</li>
         </ul>
       </div>
